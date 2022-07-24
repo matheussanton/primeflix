@@ -2,6 +2,8 @@
 
 ### Movie listing system, consuming TMDB API, listing on Home and saving favorite movies on LocalStorage
 
+#### Demo is available at: https://msg-primeflix.herokuapp.com/
+
 
 `yarn install`
 Run yarn install to install all project dependencies.
