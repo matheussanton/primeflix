@@ -1,0 +1,69 @@
+.favoritesList {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favoritesList h1  {
+    margin-bottom: 14px;
+}
+
+.favoritesList span {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.favoritesList ul {
+    max-width:100%;
+    width: 720px;
+}
+
+.favoritesList ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    border-radius: 8px;
+}
+
+.favoritesList div {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.favoritesList button {
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #202124;
+    color: #fff;
+   
+    transition:all 0.5s ease-in-out;
+}
+
+.favoritesList button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.favoritesList button:hover a{
+    color: #fff;
+}
+
+.favoritesList a {
+    text-decoration: none;
+    color: #fff;
+
+    transition:all 0.5s ease-in-out;
+}

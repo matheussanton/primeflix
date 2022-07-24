@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    min-height: 100%;
+    background-color: #202124;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.favoritos {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px 14px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+
+    transition: all 0.2s ease-in;
+}
+
+.favoritos:hover {
+    color: #fff;
+    background-color: #202124;
+    border: 1px solid #fff;
+
+    transition: all 0.3s ease-in-out;
+}
